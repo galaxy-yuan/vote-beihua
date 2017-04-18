@@ -1,0 +1,146 @@
+.mgr{
+    width: inherit;
+    height: 133px;
+    background-color: #d0d9e6;
+    margin: 0px;
+    padding: 0px;
+}
+.mgr-child{
+    margin-left: 35%;
+    align-self: center;
+    position: absolute;
+    margin-top: 85px;
+}
+
+.mgr-data{
+    position: relative;
+    height:500px;
+    margin-top: 0px;
+    background-color: #e1e6e4;
+}
+.mgr-table thead td{
+    color: blue;
+    text-align: center;
+    background-color: rgba(210, 220, 61, 0.72);
+}
+.mgr-table tbody tr td {
+    text-align: center;
+    width: 285px;
+    height: 39px;
+    border-style: ridge;
+
+}
+.mgr-table tbody tr:nth-child(odd){
+    background: #e1e6e4;
+}
+.mgr-table tbody tr:nth-child(even){
+    background: #e6e3e3;
+}
+.mgr-data-lable-modify{
+
+    color: blue;
+}
+.mgr-data-lable-modify:hover{
+    color: #30dc16;
+}
+.mgr-data-lable-delete:hover{
+    color: red;
+}
+.mgr-data-button{
+    position: relative;
+    margin-right: 1px;
+    width: 85px;
+    height: 32px;
+    margin-left: 917px;
+    margin-right: 47px;
+    margin-top: 0px;
+    background-color: dodgerblue;
+}
+.mgr-table{
+    position: relative;
+    align-self: auto;
+    margin-left: 201px;
+    margin-right: 180px;
+    margin-top: 13px;
+}
+.page{
+    margin-top: 0%;
+    z-index: 3;
+    position: relative;
+}
+
+form input[type=button]{
+    width: 70px;
+    height: 26px;
+    background-color: brown;
+    border-radius: 5px;
+
+}
+form input[type=reset]{
+    width: 70px;
+    height: 26px;
+    background-color: #a54945;
+    border-radius: 5px;
+
+}
+.search{
+    height: 25px;
+    width: 200px;
+    font-style: initial;
+    font-family: 新宋体;
+    border-style: initial;
+    border-radius: 6px;
+}
+
+.line{
+    width: inherit;
+    height: 3px;
+    background-color: #8cffce;
+}
+.mgr-data-add{
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0%;
+    width: 792px;
+    height: 471px;
+    background-color: darkgray;
+
+}
+select#mgr-select {
+    width: 117px;
+    height: 28px;
+    border-radius: 9px;
+    margin-top: 29px;
+}
+input.mgr-form-submit {
+    width: 70px;
+    height: 27px;
+    margin-left: 256px;
+    margin-top: 34px;
+}
+input.mgr-form-button {
+    margin-left: 124px;
+    margin-top: 33px;
+    position: absolute;
+    width: 70px;
+    height: 27px;
+}
+#mgr-add  label {
+    width: 38px;
+    background-color: dimgrey;
+    font-size: 19px;
+    margin-left: 255px;
+    margin-right: 25px;
+}
+.mgr-data-add form  input{
+    position: relative;
+    margin-top: 36px;
+    height: 23px;
+    border-radius: 6px;
+
+}
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
